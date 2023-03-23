@@ -11,8 +11,8 @@
 }
 
 :root {
-    --color-bg: #000020e8;
-    --color-bg-variant: #4A756E;
+    --color-bg: #000000e8;
+    --color-bg-variant: #3e867a; /* #4A756E */
     --color-primary: #3a1f00;
     --color-yellow: #ffd900;
     --color-primary-variant: rgba(77, 181, 255, 0.863);
@@ -73,7 +73,7 @@ section>h5 {
 }
 
 section>h2 {
-    color: var(--color-primary);
+    color: var(--color-yellow);
     margin-bottom: 3rem;
 }
 
@@ -108,7 +108,7 @@ a:hover {
 }
 
 .btn-primary {
-    background: var(--color-white);
+    background: var(--color-yellow);
     color: var(--color-bg);
 }
 

@@ -57,6 +57,78 @@ header {
     /* padding: 5rem 1.5rem 1.5rem 1.5rem; */
 }
 
+.me__one {
+    border-radius: 2rem 2rem 2rem 2rem;
+    transform: rotate(10deg);
+    transition: var(--transition);
+    overflow: hidden;
+    position: absolute;
+    
+}
+
+.me__onebackground {
+    width: 22rem;
+    height: 22rem;
+    margin-top: 5rem;
+    aspect-ratio: 1/1;
+    /* border-radius: 2rem 2rem; */
+    background: linear-gradient(
+      45deg,
+      transparent,
+      var(--color-yellow),
+      transparent
+    );
+    display: flex;
+    /* place-items: center; */
+    left: calc(85% - 11rem);
+    position: absolute;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+  }
+  
+  
+  .me__one:hover {
+    transform: rotate(360deg);
+  }
+
+  .me__two {
+    border-radius: 2rem 2rem 2rem 2rem;
+    transform: rotate(-10deg);
+    transition: var(--transition);
+    overflow: hidden;
+    position: absolute;
+    
+}
+
+.me__twobackground {
+    width: 22rem;
+    height: 22rem;
+    margin-top: 5rem;
+    aspect-ratio: 1/1;
+    /* border-radius: 2rem 2rem; */
+    background: linear-gradient(
+      140deg,
+      transparent,
+      var(--color-yellow),
+      transparent
+    );
+    display: flex;
+    /* place-items: center; */
+    left: calc(15% - 11rem);
+    position: absolute;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+  }
+  
+  
+  .me__two:hover {
+    transform: rotate(360deg);
+  }
+
 /* ====== SCROLL DOWN ====== */
 .scroll__down {
     position: absolute;
@@ -82,6 +154,14 @@ header {
 
     .header__socials,
     .scroll__down {
+        display: none;
+    }
+
+    .me__onebackground {
+        display: none;
+    }
+
+    .me__twobackground {
         display: none;
     }
 }

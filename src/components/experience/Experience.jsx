@@ -19,9 +19,9 @@ const Experience = () => {
     <section id="Experience">
       <h5> The Skills I Have</h5>
 
-      <div className="experience">
+      {/* <div className="experience"> */}
         <h2>My Experience</h2>
-      </div>
+      {/* </div> */}
 
       <div className=".container experience__container">
         {/* ======================= FRONT END ======================= */}
